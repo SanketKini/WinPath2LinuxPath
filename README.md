@@ -7,4 +7,5 @@
 
 ## Steps to execute
 sh location_of_sh_file/cdwin.sh "The Windows File Path you want to convert"
-The **""** are mandatory
+
+**Please Note:** The **"double quotes"** are mandatory
