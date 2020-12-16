@@ -6,4 +6,5 @@
 2. You must have a linux emulator like Cygwin or Must have wsl installed to run bash commands via your command prompt.
 
 ## Steps to execute
-sh location_of_sh_file/cdwin.sh **"**The Windows File Path you want to convert**"**
+sh location_of_sh_file/cdwin.sh "The Windows File Path you want to convert"
+The **""** are mandatory
