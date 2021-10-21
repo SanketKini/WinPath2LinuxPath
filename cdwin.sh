@@ -9,10 +9,12 @@ then
 	line_mf=${line:2:${#line}}
 	line_mf=${line_mf//\\//}
 	line_mf=${line_mf// /\\ }
+  terminalPath="/$drive$line_mf"
 	bashPath="/cygdrive/$drive$line_mf"
 	wslPath="/mnt/$drive$line_mf"
 	echo "For Cygwin: $bashPath"
 	echo "For WSL: $wslPath"
+	echo "For Terminal: $terminalPath"
 else
 	echo "Please enter correct value"
 fi
